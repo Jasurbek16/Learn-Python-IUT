@@ -21,21 +21,23 @@
 
 ### multiline comments: use triple quotes, but that is better for docstrings. For multiline comments, use # for each line.
 
+"""Hello. This must be visible inside my new repo."""
+
 # course_name = "Introduction to IT"
 # full_name = "Jasurbek Mamurov"
 # custom_message = 'Hi Mark, I\'m interested in the "TOP-10" vscode extensions.'
 
-# custom_multiline_message = """Hi Elon,
+# custom_multiline_message = '''Hi Elon,
 # I am really into applying for the "SpaceX" internship program.
 # I would like to know if you have any tips for me to get selected.
-# Thanks!"""
+# Thanks!'''
 
 # print(f'Big message:{custom_multiline_message}\n\nCordially,\n{full_name.upper()}\nLecturer\n{course_name}')
 # print("\nLength of full name: " + str(len(full_name)))
 # print("\n" + "Custom message: " + custom_message)
 
 # print("Name in custom message: " + custom_message[3:7])
-# print("Interesting part in custom message: " + custom_message[30:])
+# print("Interesting part in custom message: " + custom_message[31:])
 
 # print(course_name.lower())
 # print(course_name.count("I"))
@@ -52,7 +54,7 @@
 # print(available_courses)
 
 # print(dir(full_name))
-# print(help(str))
+# print(help(int))
 # print(help(str.lower))
 
 # num_1 = 10
