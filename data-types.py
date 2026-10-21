@@ -71,7 +71,7 @@ pi_in_math = 3.14
 # print(type(num_1))
 # print(type(pi_in_math))
 
-### Arithmetic operations
+#### Arithmetic operations
 ## 5 + 2 
 ## 5 - 2
 ## 5 * 2
