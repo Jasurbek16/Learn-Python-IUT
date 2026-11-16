@@ -68,11 +68,11 @@
 #     print(i)
 
 # while loop
-i = 0
-while i < 10:
-    i += 1
-    if i == 7:
-        break
-    if i == 2:
-        continue
-    print(i)
+# i = 0
+# while i < 10:
+#     i += 1
+#     if i == 7:
+#         break
+#     if i == 2:
+#         continue
+#     print(i)
