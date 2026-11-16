@@ -1,4 +1,4 @@
-university = {'name': 'Inha University', 'location': 'Incheon', 'established': 1954, 'students': 15000, 'students_coming_from': ['Uzbekistan', 'China', 'Vietnam', 'Philippines']}
+# university = {'name': 'Inha University', 'location': 'Incheon', 'established': 1954, 'students': 15000, 'students_coming_from': ['Uzbekistan', 'China', 'Vietnam', 'Philippines']}
 # university['name'] = 'Westminster University'
 
 # print(university['name'])
@@ -53,16 +53,26 @@ university = {'name': 'Inha University', 'location': 'Incheon', 'established': 1
 # print('Aziza' not in names)
 
 ###
-names = ['Ertugrul', 'Komronbek', 'Sultanbek', 'Amaliya']
-nums = [1, 2, 3]
+# names = ['Ertugrul', 'Komronbek', 'Sultanbek', 'Amaliya']
+# nums = [1, 2, 3]
 
 # for loop
 # for name in names:
 #     print(name)
 
-for name in names:
-    for num in nums:
-        print(num, name)
+# for name in names:
+#     for num in nums:
+#         print(num, name)
 
+# for i in range(1, 11):
+#     print(i)
 
 # while loop
+i = 0
+while i < 10:
+    i += 1
+    if i == 7:
+        break
+    if i == 2:
+        continue
+    print(i)
